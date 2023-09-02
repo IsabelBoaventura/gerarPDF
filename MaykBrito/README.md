@@ -3,14 +3,14 @@
 Gerando PDF com NodeJS.
 
 
-## Onde encontrar
+## :mag_right: Onde encontrar
 
 Conteudo do video de Mayk Brito:
   * Localização: https://www.youtube.com/watch?v=AoU7aEdTldE
   * Titulo Vamos gerar PDF com NodeJS, Puppeteer, EJS e TailwindCSS
   
 
-## Material
+## :books: Material
 
 Material usado para este conteudo: 
 
@@ -26,7 +26,7 @@ Usaremos a biblioteca: html2pdf.js;
  
  
 
-## Começando
+## ⛏️  Começando
 
 Criar um html comum, com  uma frase inicial, link para uma página de script, botão de enviar / gerar; 
 
@@ -36,7 +36,7 @@ Busque a biblioteca que irá construir o pdf;
 
 Crie as funções no javascript
 
-## Finalizado
+## :tada: Finalizado
 
 Vídeo de 10 minutos, explicando como fazer o básico com HTML, JavaScript e a biblioteca HTML2PDF. 
 
