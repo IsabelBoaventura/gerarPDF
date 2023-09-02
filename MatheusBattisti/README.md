@@ -2,7 +2,7 @@
 
 Fazer a geração de PDF a partir de várias linguagens, começando com javascript. 
 
-## Onde encontrar
+##  :mag_right: Onde encontrar
 
 Conteudo do video de Matheus Battisti, do Canal Hora de Codar.
 
@@ -11,7 +11,7 @@ Conteudo do video de Matheus Battisti, do Canal Hora de Codar.
 > Titulo: 
 Como gerar PDF com JavaScript
 
-## Material
+## :books: Material
 
 Usaremos a biblioteca:  **html2pdf.js**;
   * Localização: https://cdnjs.com/libraries/html2pdf.js
@@ -26,7 +26,7 @@ Usaremos a biblioteca:  **html2pdf.js**;
  
  
 
-## Começando
+## ⛏️  Começando
 
 Criar um html comum, com  uma frase inicial, link para uma página de script, botão de enviar / gerar; 
 
@@ -36,7 +36,7 @@ Busque a biblioteca que irá construir o pdf;
 
 Crie as funções no javascript
 
-## Finalizado
+## 🎉 Finalizado
 
 Vídeo de 10 minutos, explicando como fazer o básico com HTML, JavaScript e a biblioteca HTML2PDF. 
 
