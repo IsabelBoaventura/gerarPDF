@@ -2,7 +2,9 @@
 
 Fazer a geração de PDF a partir de várias linguagens. 
 
-## JavaScript
+##  <img  align="center"  width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />  JavaScript 
+          
+          
 
 Conteudo do video de Matheus Battisti, do Canal Hora de Codar.
 
@@ -12,7 +14,7 @@ Conteudo do video de Matheus Battisti, do Canal Hora de Codar.
 Como gerar PDF com JavaScript
 
 
-## NodeJS
+##  <img align="center"  width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> NodeJS     
 
 Conteudo do video de Mayk Brito. 
 
