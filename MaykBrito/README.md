@@ -30,7 +30,8 @@ Usaremos a biblioteca: html2pdf.js;
 
 
 ### Como exportar um PDF com NodeJS
-[] Pq eu preciso exportar um PDF?
+
+ [] Pq eu preciso exportar um PDF?
 
 [] Existem outras ferramentas?
 
