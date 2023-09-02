@@ -1,4 +1,4 @@
-# gerarPDF
+# Gerar PDF
 
 Fazer a geração de PDF a partir de várias linguagens. 
 
