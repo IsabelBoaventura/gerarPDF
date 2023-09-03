@@ -90,7 +90,7 @@ Material usado para este conteudo:
 
 
 
-## ⛏️  :building_construction:   Começando
+## :building_construction: Começando
 
 Gerando o pacote inicial (terminal):
 
@@ -110,12 +110,32 @@ Iniciar o servidor (terminal):
 
 	node src/server.js
 	
+Tentativas de refresh automático do servidor
+
+	npm install -g nodemon
+	
+	npm install --save-dev nodemon
+	
+	npm start 
+
+	
 O servidor começa, mas não avisa nada. 
 Mas tem como verificar se o servidor esta logado, simplesmente verificar o  `localhost:3000`;
 
 <p align="center">
   <img src="imagens/servidor_localizado.jpg" width="350" title="servidor localizado">
 </p>
+
+Configurar a rota inicial;
+No meu caso eu tive de reiniciar o servidor para obter a resposta constante na rota. 
+
+Callback -> função que é passada como argumento para outra função;
+
+Criar a lista de dados que será passada para a pagina que constará no relatório; 
+
+Passar a variável de passageiros para o servidor e verificar a informação. 
+
+
 
 
 	 
