@@ -21,6 +21,14 @@ Material usado para este conteudo:
 		- Material Icon Theme
 - NPM v9.6.6.
 - node v18.16.0
+- express ( ejs html-pdf)
+
+
+## :card_file_box: pastas (caminhos)
+
+- src
+	- server.js
+
 
 
 
@@ -77,7 +85,36 @@ Material usado para este conteudo:
 
 
 
-## ⛏️  Começando
+## ⛏️  :building_construction:   Começando
+
+Gerando o pacote inicial (terminal):
+
+	npm init -y 
+	
+Irá gerar dentro do diretório que estamos trabalhando o `package.json` que é a configuração do projeto;
+
+Instalando as dependências (terminal):
+
+	npm install express ejs html-pdf
+	
+Express é uma ferramenta para criar um servidor. Criará as rotas que iremos utilizar. 
+
+Criando a pasta principal `src` e dentro dela o servidor `server.js`;
+
+Iniciar o servidor (terminal):
+
+	node src/server.js
+	
+O servidor começa, mas não avisa nada. 
+Mas tem como verificar se o servidor esta logado, simplesmente verificar o  `localhost:3000`;
+
+<p align="center">
+  <img src="imagens/servidor_localizado.jpg" width="350" title="servidor localizado">
+</p>
+
+
+	 
+
 
 ## :tada: Finalizado
 
