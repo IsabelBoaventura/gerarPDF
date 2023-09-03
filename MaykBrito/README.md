@@ -2,6 +2,11 @@
 
 Gerando PDF com NodeJS.
 
+> [!WARNING]
+> Sempre criar o gitignore antes de começar qualquer aplicação.
+
+
+
 
 ## :mag_right: Onde encontrar
 
