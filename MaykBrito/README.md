@@ -19,21 +19,13 @@ Material usado para este conteudo:
 		- Bracket Pair colorizer ( cores dos parenteses);
 		- Launchbase Theme
 		- Material Icon Theme
+- NPM v9.6.6.
+- node v18.16.0
 
-Usaremos a biblioteca: html2pdf.js;
-  * Localização: https://cdnjs.com/libraries/html2pdf.js
-  
-  * Conteudo: <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-  * Biblioteca:
-  https://ekoopmans.github.io/html2pdf.js/
-  
-  
- 
- 
 
-## ⛏️  Começando
 
+
+## Informações passadas por Mayk Brito
 
 ### Como exportar um PDF com NodeJS
 
@@ -44,10 +36,10 @@ Usaremos a biblioteca: html2pdf.js;
 - [ ] Pq eu vou usar o NodeJS?
 
 ### O que vamos aprender aqui?
-[] NodeJS
-[] Criar um servidor com uma rota
-[] Usar um template engine
-[] Usar callbacks
+- [] NodeJS
+- [] Criar um servidor com uma rota
+- [] Usar um template engine
+- [] Usar callbacks
 
 ### Bora codar?
  Iniciar o projeto com NPM
@@ -79,17 +71,13 @@ Usaremos a biblioteca: html2pdf.js;
  exportar o PDF
 
 ### Próximos passos
-[] Revise seu código e tente lembrar o que cada coisa faz
-[] Crie uma nova ideia de exportação de PDF, baseado nesse modelo
-[] Comente o que achou :)
+- [] Revise seu código e tente lembrar o que cada coisa faz
+- [] Crie uma nova ideia de exportação de PDF, baseado nesse modelo
+- [] Comente o que achou :)
 
-Criar um html comum, com  uma frase inicial, link para uma página de script, botão de enviar / gerar; 
 
-Crie o arquivo js ( scripts.js );
 
-Busque a biblioteca que irá construir o pdf;
-
-Crie as funções no javascript
+## ⛏️  Começando
 
 ## :tada: Finalizado
 
