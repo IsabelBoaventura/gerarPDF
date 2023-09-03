@@ -14,6 +14,12 @@ Conteudo do video de Mayk Brito:
 
 Material usado para este conteudo: 
 
+ - VS Code
+	- Extensões:
+		- Bracket Pair colorizer ( cores dos parenteses);
+		- Launchbase Theme
+		- Material Icon Theme
+
 Usaremos a biblioteca: html2pdf.js;
   * Localização: https://cdnjs.com/libraries/html2pdf.js
   
