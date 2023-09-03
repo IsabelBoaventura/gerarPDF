@@ -1,0 +1,5 @@
+# ignore all logs
+*.log
+
+# ignorar as pastas node_modules
+node_modules
