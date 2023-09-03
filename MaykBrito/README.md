@@ -27,12 +27,16 @@ Material usado para este conteudo:
 - NPM v9.6.6.
 - node v18.16.0
 - express ( ejs html-pdf)
+- TailwindCSS 
+- puppeteer
+
 
 
 ## :card_file_box: pastas (caminhos)
 
 - src
 	- server.js
+	- print.ejs
 
 
 
@@ -43,16 +47,14 @@ Material usado para este conteudo:
 ### Como exportar um PDF com NodeJS
 
 - [x] Pq eu preciso exportr um PDF?
-
 - [ ] Existem outras ferramentas?
-
 - [ ] Pq eu vou usar o NodeJS?
 
 ### O que vamos aprender aqui?
-- [] NodeJS
-- [] Criar um servidor com uma rota
-- [] Usar um template engine
-- [] Usar callbacks
+- [ ] NodeJS
+- [ ] Criar um servidor com uma rota
+- [ ] Usar um template engine
+- [ ] Usar callbacks
 
 ### Bora codar?
  Iniciar o projeto com NPM
@@ -84,9 +86,9 @@ Material usado para este conteudo:
  exportar o PDF
 
 ### Próximos passos
-- [] Revise seu código e tente lembrar o que cada coisa faz
-- [] Crie uma nova ideia de exportação de PDF, baseado nesse modelo
-- [] Comente o que achou :)
+- [ ] Revise seu código e tente lembrar o que cada coisa faz
+- [ ] Crie uma nova ideia de exportação de PDF, baseado nesse modelo
+- [ ] Comente o que achou :)
 
 
 
@@ -110,14 +112,6 @@ Iniciar o servidor (terminal):
 
 	node src/server.js
 	
-Tentativas de refresh automático do servidor
-
-	npm install -g nodemon
-	
-	npm install --save-dev nodemon
-	
-	npm start 
-
 	
 O servidor começa, mas não avisa nada. 
 Mas tem como verificar se o servidor esta logado, simplesmente verificar o  `localhost:3000`;
@@ -129,18 +123,119 @@ Mas tem como verificar se o servidor esta logado, simplesmente verificar o  `loc
 Configurar a rota inicial;
 No meu caso eu tive de reiniciar o servidor para obter a resposta constante na rota. 
 
+Tentativas de refresh automático do servidor (terminal):
+
+	npm install -g nodemon
+	
+	npm install --save-dev nodemon
+	
+Agora toda a vez que reiniciar o navegador, será com o comando:
+	
+	npm start 
+
 Callback -> função que é passada como argumento para outra função;
 
 Criar a lista de dados que será passada para a pagina que constará no relatório; 
 
 Passar a variável de passageiros para o servidor e verificar a informação. 
 
+Criar o arquivo `print.ejs` , ejs é uma template end;
+
+Inicio de tags em ejs são representados por `<%` e o fechamento destas tags por `%>` ;
+
+ejs permite adicionar códigos javascript no meio de HMTL sem adicionar `script` ;
+
+Passar as informações dos passageiros do servidor para dentro do arquivo ejs;
+Importar no arquivo do servidor ( src/server.js) o framework ejs ;
+
+Pegar o caminho correto do arquivo;
+
+Função `renderFile` do ejs;
+Esta função recebe três parâmetros: caminho, objeto e callback;
+
+Exemplos de objeto (chave e valor): 
+ * {'passageiros': passengers} ( no ejs, usariamos 'passageiros');
+ * {'passengers': passengers}
+ * { passengers}
+
+Todos estão corretos, são formas diferentes de apresentar a mesma informação; 
 
 
+Forçando um erro para mostrar a mensagem de erro, neste caso trocado o nome do Objeto que será passado.
 
-	 
+<p align="center">
+  <img src="imagens/erro_objeto.jpg" width="350" title="servidor localizado">
+</p> 
+
+Trocando o caminho que será buscado:
+<p align="center">
+  <img src="imagens/erro_caminho.jpg" width="350" title="servidor localizado">
+</p>
+
+Neste caso irá trazer a informação que indicamos  para ser mostrada. 
+
+Callback não é executado imediatamente,  a aplicação continua rodando. E o callback ( chame de volta ) depois da aplicação finalizada, o sistema guarda esta parte do callback em separado, roda toda a função , podendo ter encontrado o que queriamos, e depois roda o callback, podendo retornar com um falso negativo/positivo.
+
+A execução do arquivo só poderá acontecer se houver um resposta possitiva da execução ( não houver erro );
+
+Mostrando o HTML
+<p align="center">
+  <img src="imagens/primeiro_html.jpg" width="350" title="servidor localizado">
+</p> 
+
+Chamando o Módulo de PDF;
+
+Realizada as configurações e gerado o arquivo em pdf ( report.pdf) foi gerado na pasta raiz do projeto, sem solicitar para abrir. 
+
+O PDF ficou sem as informações do CSS. Mas esta parte será adicionado na parte Bonus do video. 
+
+Vamos usar  a biblioteca `tailwind` , que será adicionada com um link externo, dentro do html.
+
+Onde encontrar: 
+
+	https://tailwindcss.com/docs/installation/play-cdn
+	
+Documentação: 
+
+	https://v2.tailwindcss.com/docs/hover-focus-and-other-states
+	
+Instalando o puppeteer:
+
+	npm install puppeteer
+	
+Agora o arquivo apenas será enviado para o navegador. 
+
+Criaremos a nova rota para o pdf, e dentro do servidor, iremos retirar o pdf dele. Retira as opções. E retira o pdf create.
+
+Usando o `async` e o `await` , para haver a espera e o aguardo da função. Uma promessa que irá abrir o navegador. 
+
+No browser iremos chamar a nova rota: 
+
+	http://localhost:3000/pdf
+
+A nova rota, por enquanto apenas apresenta o return ( 'Feito' );
+
+
+Ele esta abrindo e fechando uma página do google chrome extra, não é uma aba, e sim uma página. 
+
+Retirando o ` {headless: false }`  do lauch , ele ira trabalhar, sem abrir a página do google. Quando não tem nada, ele usa o default. O default dele é o `headless: true `  ou seja, faz a programação escondido, sem mostrar a página. 
+
+Agora executando, tanto o localhost,  como o '/pdf'.
+PDF sendo apresentado na tela: 
+
+<p align="center">
+  <img src="imagens/respostaPDF.jpg" width="350" title="servidor localizado">
+</p> 
 
 
 ## :tada: Finalizado
+
+Vídeo com aproximadamente 1hora e 20min de duração.
+Trazendo conceitos novos (ejs, puppeteer, ...) e revisão de conceitos antigos (callback). 
+Com necessidade de busca de outros conceitos( nodemon).
+
+Ótimo conteudo, seguir a indicação de Mayk Brito, de refazer, brincar, reformar e produzir vários outros.
+
+show de bola. 
 
 

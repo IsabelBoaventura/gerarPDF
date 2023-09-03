@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='refresh' content='5'>
+    <meta http-equiv="X-UA-Compatible" content="width=devite-width, initial-scale=1.0" >
+    <title>PDF </title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        table{
+            width: 75%;
+        }
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body class="bg-purple-100" >
+
+    <div class="m-8" >
+        <h1 class="text-3xl mb-8" >Listam de Passageiros</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número do Voo</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% if ( passengers.length > 0 ){ %>
+                    <% passengers.forEach( passenger => { %>
+                        <tr>
+                            <td> <%= passenger.name %> </td>
+                            <td> <%= passenger.flightNumber %> </td>
+                            <td> <%= passenger.time %> </td>
+                        </tr>
+
+                    <%    }) ;%>
+
+                <% } %> 
+
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><%=passengers.length%> passageiros </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    
+</body>
+</html>
