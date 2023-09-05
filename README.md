@@ -27,11 +27,11 @@ Vamos gerar PDF com NodeJS, Puppeteer, EJS e TailwindCSS
 ## <img  align="center"  width="40" height="30"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /> PHP 
           
 
-Conteúdo do vídeo do Celke
+Conteúdo do vídeo do Celke.
 
-> Localização:
+> Localização: https://www.youtube.com/watch?v=MMvTwHUEdQA
 
-> Titulo:
+> Titulo: Como receber os dados do formulário e gerar PDF com PHP
 
 
 
