@@ -1,42 +1,36 @@
-# Mayk Brito
+# Celke
 
-Gerando PDF com NodeJS.
+Gerando PDF com PHP.
 
-> [!WARNING]
-> Sempre criar o gitignore antes de começar qualquer aplicação.
-
-
-
-
-## :mag_right: Onde encontrar
-
-Conteudo do video de Mayk Brito:
-  * Localização: https://www.youtube.com/watch?v=AoU7aEdTldE
-  * Titulo Vamos gerar PDF com NodeJS, Puppeteer, EJS e TailwindCSS
   
 
 ## :books: Material
 
 Material usado para este conteudo: 
 
- - VS Code
-	- Extensões:
-		- Bracket Pair colorizer ( cores dos parenteses);
-		- Launchbase Theme
-		- Material Icon Theme
-- NPM v9.6.6.
-- node v18.16.0
-- express ( ejs html-pdf)
-- TailwindCSS 
-- puppeteer
+- VS Code
+- PHP 7.4
+- dompdf ( biblioteca)
+- composer v2.3.10
+
+
+## Requerimentos para o DOMPDF
+
+* PHP version 7.1 ou superior
+* DOM extension
+* MBString extension
+* php-font-lib
+* php-svg-lib
+
 
 
 
 ## :card_file_box: pastas (caminhos)
 
-- src
-	- server.js
-	- print.ejs
+- index.php
+- gerar_pdf.php 
+
+
 
 
 
@@ -44,6 +38,10 @@ Material usado para este conteudo:
 
 
 ## :building_construction: Começando
+
+Construir o arquivo index, onde deve constar um HTML, com um 'form' contendo inputs  para 'nome' e 'e-mail' e um textarea para 'descricao'. E o botão de submeter.
+
+Construindo o arquivo que irá receber as informações ( gerar_pdf.php );
 
 Gerando o pacote inicial (terminal):
 
