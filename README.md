@@ -24,7 +24,7 @@ Conteudo do video de Mayk Brito.
 Vamos gerar PDF com NodeJS, Puppeteer, EJS e TailwindCSS
 
 
-## <img align="center"  width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/php-original.svg" />PHP <img align="center"  width="40" height="30"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" /> php 2 <img  align="center"  width="40" height="30"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+## <img  align="center"  width="40" height="30"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /> PHP 
           
 
 Conteúdo do vídeo do Celke
