@@ -33,3 +33,8 @@
     
 </body>
 </html>
+
+
+<?php
+   phpinfo();
+?>

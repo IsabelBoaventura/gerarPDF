@@ -1,0 +1,17 @@
+{
+    "name": "boaventuraisabel/celke",
+    "autoload": {
+        "psr-4": {
+            "Boaventuraisabel\\Celke\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isabel boaventura",
+            "email": "boaventuraisabel31@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

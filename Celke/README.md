@@ -10,7 +10,7 @@ Material usado para este conteudo:
 
 - VS Code
 - PHP 7.4
-- dompdf ( biblioteca)
+- dompdf ( https://github.com/dompdf/dompdf )
 - composer v2.3.10
 
 
@@ -51,6 +51,17 @@ Gerando o pacote inicial (terminal):
 <p align="center">
   <img src="imagens/erro_objeto.jpg" width="350" title="servidor localizado">
 </p> 
+
+
+### Instalação da Biblioteca
+
+	composer init
+	
+	composer require dompdf/dompdf
+	
+	
+	
+	
 
 
 
