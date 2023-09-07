@@ -72,7 +72,7 @@ Continuando..
 Adicione o código HTML com as informações da pagina html e mande gerar o pdf. 
 
 <p align="center">
-  <img src="imagens/pdf_celke.jpg" width="350" title="servidor localizado">
+  <img src="imagens/pdf-celke.jpg" width="350" title="servidor localizado">
 </p>
 
 
