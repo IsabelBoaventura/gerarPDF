@@ -67,6 +67,8 @@ Instale a biblioteca dompdf usando o composer
 
 	
 Continuando.. 
+
+
 Adicione o código HTML com as informações da pagina html e mande gerar o pdf. 
 
 <p align="center">
