@@ -36,5 +36,5 @@
 
 
 <?php
-   phpinfo();
+   //phpinfo();
 ?>

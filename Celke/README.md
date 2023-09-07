@@ -21,7 +21,7 @@ Material usado para este conteudo:
 * MBString extension
 * php-font-lib
 * php-svg-lib
-
+(Não foi necessário modificar nada em meu php.ini )
 
 
 
@@ -29,6 +29,9 @@ Material usado para este conteudo:
 
 - index.php
 - gerar_pdf.php 
+
+
+
 
 
 
@@ -52,21 +55,29 @@ Gerando o pacote inicial (terminal):
   <img src="imagens/erro_objeto.jpg" width="350" title="servidor localizado">
 </p> 
 
+Instale a biblioteca dompdf usando o composer
 
 ### Instalação da Biblioteca
 
 	composer init
 	
 	composer require dompdf/dompdf
-	
-	
-	
-	
 
 
 
+	
+Continuando.. 
+Adicione o código HTML com as informações da pagina html e mande gerar o pdf. 
+
+<p align="center">
+  <img src="imagens/pdf_celke.jpg" width="350" title="servidor localizado">
+</p>
 
 
 ## :tada: Finalizado
 
-Vídeo
+No caso do composer, tive de modificar o nome do meu usuário no pc,  estava com espaço. 
+
+Deixei no fonte do código do gera-pdf uma instrução de escrita na tela ( var_dump) o que estava causando erro ( Falha ) no momento de abrir o pdf. 
+
+Depois de eliminado, o sistema imprimiu corretamente.

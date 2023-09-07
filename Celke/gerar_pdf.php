@@ -1,7 +1,9 @@
 <?php
 
-// reference the Dompdf namespace
-use Dompdf\Dompdf;
+//para ver os erros 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
 // carregar o composer 
@@ -9,10 +11,23 @@ require 'vendor/autoload.php';
 
 
 
+// reference the Dompdf namespace
+use Dompdf\Dompdf;
+
+
+use Dompdf\Options;
+
+
+
+
+
+
 //recebendo os dados do formulário
 $dados = filter_input_array( INPUT_POST, FILTER_DEFAULT) ;
 
-var_dump( $dados);
+//var_dump( $dados);
+
+//Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi consequuntur ipsum, dolores rerum neque ipsam nemo nisi voluptatem qui alias, provident exercitationem sed hic culpa aspernatur cupiditate, earum mollitia.
 
 
 
@@ -31,6 +46,9 @@ $conteudo ='
 if(!empty($dados['btn-gerar'])){
 
     $conteudo .= "<h1>Ola Isabel Boavetura</h1> ";
+    $conteudo .= "<p><b>Nome: </b>".$dados['nome']."</p> ";
+    $conteudo .= "<p><b>E-mail: </b>".$dados['email']."</p> ";
+    $conteudo .= "<p><b>Descrição: </b>".$dados['descricao']."</p> ";
 
     $conteudo .='
     
@@ -53,12 +71,14 @@ if(!empty($dados['btn-gerar'])){
 
 
 
+    //
     $dompdf->loadHtml( $conteudo);
+    //$dompdf->loadHtml('ola mundo ');
 
 
 
 
-
+    $dompdf->getOptions()->set('isPhpEnabled', true);
 
 
     // Render the HTML as PDF
