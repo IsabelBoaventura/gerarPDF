@@ -34,4 +34,20 @@ Conteúdo do vídeo do Celke.
 > Titulo: Como receber os dados do formulário e gerar PDF com PHP
 
 
+##  <img  align="center"  width="40" height="30"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /> Python
+
+Conteúdo do vídeo do Celke.
+
+> Localização:
+
+https://www.youtube.com/watch?v=oR00jVuYBF0
+
+
+
+> Titulo: Como gerar arquivos PDFs com Python - #018 - Criando PDFs com Python
+
+
+          
+
+
 
