@@ -38,16 +38,11 @@ Conteúdo do vídeo do Celke.
 
 Conteúdo do vídeo do Celke.
 
-> Localização:
-
-https://www.youtube.com/watch?v=oR00jVuYBF0
+> Localização:https://www.youtube.com/watch?v=oR00jVuYBF0
 
 
 
 > Titulo: Como gerar arquivos PDFs com Python - #018 - Criando PDFs com Python
-
-
-          
 
 
 

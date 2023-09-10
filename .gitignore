@@ -38,3 +38,8 @@ Thumbs.db
 node_modules
 ./vendor
 vendor
+./venv/Lib
+venv/Lib
+./Lib
+Lib
+
