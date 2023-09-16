@@ -21,12 +21,13 @@ Dentro do arquivo, criou a pasta venv
 ## pastas
 
 PyCodeBr
-	-> venv
-		->Include
-		->Lib
-		->Scripts
-		->pyvenv.cfg
-		->main.py
+
+- :file_folder: venv
+	- :file_folder: Include
+	- :file_folder: Lib
+	- :file_folder: Scripts
+	- :pincel: pyvenv.cfg
+	- :pincel: main.py
 		
 ## Executando 
 Para executar o python vá até a pasta venv (pelo terminal)
