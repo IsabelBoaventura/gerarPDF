@@ -20,8 +20,8 @@ Vídeo:
 	
 Criação automática das pastas(Dentro da pasta Nando):
 
-	- :folder: ambTeste
-		- Include
-		- Lib
-		- Scripts
-		- :file: pyvenv.cfg
+-  :file-folder:  ambTeste
+	-  :file-folder:Include
+	-  :file-folder: Lib
+	- :file-folder: Scripts
+	- :pencil: pyvenv.cfg
