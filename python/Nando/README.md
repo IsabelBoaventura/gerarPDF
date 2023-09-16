@@ -33,7 +33,9 @@ Para ativar o ambiente de trabalho do python:
 	source ambTeste/bin/activate 
 	
 (Lembrando que source é para ambientes Linux).
+
 Sem resultado.
+
 Realizado outras tentativas. Mas ainda sem resultado( necessário novas pesquisas de como trabalhar com python no windows);
 
 
@@ -46,18 +48,21 @@ Realizado outras tentativas. Mas ainda sem resultado( necessário novas pesquisa
 ## Trabalhando 
 
 Gerar o arquivo app.py, dentro da pasta principal ( ambTeste );
+
 Canvas usa o plano cartesiano ( eixos x e y );
+
 Canvas usa pontos, e não milimetros. 
+
 Uma folha A4 no canvas tem de EixoX: 595.275590 pontos e de EixoY: 841.889763 pontos.
 
 ### Função
 
 Função python para transformar pontos em milimetros:
 
-	<code>
-		def mm2p( milimetros):
-			return milimetros / 0.352777
-	</code>
+<code>
+	def mm2p( milimetros):
+		return milimetros / 0.352777
+</code>
 
 Na função do tamanho A4 os valores do EixoX está em 210mm  e do EixoY está em 297mm.
 
@@ -102,7 +107,7 @@ Para um arquivo simples, é bem fácil didático  e até divertido de fazer.
 Mas devemos especificar melhor como adicionar as informações de quebra de linha na página. E o tamanho total da página. 
 
 <p align="center">
-  <img src="ambTeste/Include/imagens/img/final.jpg" width="350" title="servidor localizado">
+  <img src="ambTeste/Include/img/final.jpg" width="350" title="servidor localizado">
 </p>
 
 	
