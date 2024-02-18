@@ -2,7 +2,12 @@
 
     $nome = 'Bruna Dinora Boaventura Machado';
     $telefone= '(47) 9 9191 2830';
-    $email = 'emsial@email.com.br';
+    $email = 'email@email.com.br';
+    $endereco_bruna = 'Endereço Bruna';
+    $empresa = 'Mercado Caigoaté';
+    $cidade ='Alegrete/RS';
+    $endereco_exp1 = 'Endereço da Empresa 1';
+    $empresa_exp1 = 'Mercado Caigoaté';
 
 ?>
 
@@ -29,15 +34,18 @@
 
 
     <div id="content">
-        <h1><?php echo $nome;?></h1>
-        <hr>
-        <div id="informacoes">
-            <p>Alegrete/RS</p>
+        <div id="titulo" class="text-center">
+            <h1><?php echo $nome;?></h1>
+            <hr>
+        </div>
+       
+        <!-- row d-flex justify-content-center
+         col-12 d-flex  justify-content-center  -->
+        <div id="informacoes" class="text-center">
+            <p><?php echo $endereco_bruna ; ?></p>
             <p><?php echo $telefone ; ?></p>
             <p><?php echo $email ; ?></p>
-
         </div>
-        informações
 
         <h2>Resumo</h2>
         <p>Operador de Caixa com mais de 10 anos de experiência, apta a trabalhar com equipe e a solucionar problemas diversos. Hábil no atendimento ao cliente, processamento de pagamentos e controle financeiro. Disposta a aprender e assumir novas funções</p>
@@ -50,8 +58,8 @@
             <li>Simpatia no trato com equipes e clientes;</li>
         </ul>
         
-        <h2>Experiência Profissiona</h2>
-        <p><b>Operador de Caixa</b> empresa - Cidade</p>
+        <h2>Experiência Profissional</h2>
+        <p><b>Operador de Caixa</b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </p>
         <h4>01/2010 - Atual</h4>
         <ul>
             <li>Responsável pelo atendimento ao cliente, registrando as compras e recebendo os pagamentos com educação, gentileza e presteza;</li>
@@ -59,17 +67,24 @@
             <li>Realização de atendimento ao cliente em caso de dúvidas e reclamações sobre os produtos da loja, repassando as informações para a gerência.</li>
             <li>Embrulho de pacotes para presente, quando solicitado, valorizando o atendimento ao cliente.</li>
         </ul>
-        <p>Resumo do que fazia</p>
+        <hr>
 
-        <h3>Titulo experiencia 2</h3>
-        <h4>duração 2 </h4>
-        <p>Resumo do que fazia 2 </p>
+        <p><b>Operador de Caixa</b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </p>
+        <h4>01/2010 - Atual</h4>
+        <ul>
+            <li>Responsável pelo atendimento ao cliente, registrando as compras e recebendo os pagamentos com educação, gentileza e presteza;</li>
+            <li>Empacotamento de mercadorias de forma cuidadosa  e eficiente a fim de minimizar danos.</li>
+            <li>Realização de atendimento ao cliente em caso de dúvidas e reclamações sobre os produtos da loja, repassando as informações para a gerência.</li>
+            <li>Embrulho de pacotes para presente, quando solicitado, valorizando o atendimento ao cliente.</li>
+        </ul>
+        
+
+       
 
         <h2>Formação Acadêmica</h2>
-        <h3>Titulo Segundo grau completo</h3>
+        <p>Titulo Segundo grau completo</p>
 
         <h2>Informações Adicionais</h2>
-        <h3>Titulo Segundo grau completo</h3>
         <p>Quais informações adicionar aqui </p>
 
 

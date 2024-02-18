@@ -13,7 +13,7 @@ btnGenerate.addEventListener("click", ()=>{
 
     //Configuração do arquivo final em pdf
     const options = {
-        margin: [30, 30, 15, 12],
+        margin: [30, 30, 15, 20],
         filename: 'bruna_curriculo.pdf',
         html2canvas: {scale: 2},
         jsPDF: {unit: 'mm', format: 'a4', orientation:'portrait'}
