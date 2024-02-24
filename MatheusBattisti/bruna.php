@@ -1,14 +1,16 @@
 <?php
 
     $nome = 'Bruna Dinora Boaventura Machado';
-    $telefone= '(47) 9 9191 2830';
-    $email = 'email@email.com.br';
-    $endereco_bruna = 'Endereço Bruna';
+    $telefone= '(55) 9 9686-5845';
+    $email = 'boaventurabruna001@gmail.com';
+    $endereco_bruna = 'Alegrete-RS';
     $empresa = 'Mercado Caigoaté';
     $cidade ='Alegrete/RS';
     $endereco_exp1 = 'Endereço da Empresa 1';
     $empresa_exp1 = 'Mercado Caigoaté';
-
+    $end_trabalho_completo1 = 'Rua Fidêncio Caiboaté, 202. CEP.: 97543-270 - Progresso - Alegrete/RS';
+    $fantasia = 'Frigorífico Marfrig';
+    $razao='MFB Marfrig Frigorificos Brasil S.A';
 ?>
 
 <!DOCTYPE html>
@@ -57,32 +59,44 @@
             <li>Facilidades com números e cálculo de troco;</li>
             <li>Simpatia no trato com equipes e clientes;</li>
         </ul>
-        
+
         <h2>Experiência Profissional</h2>
-        <p><b>Operador de Caixa</b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </p>
-        <h4>01/2010 - Atual</h4>
+        <h4><b>Auxiliar de Escritório em geral </b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </h4>
+        <h5>05/12/2018 - Atual</h5>
+        <ul>
+            <li>Recebimento e conferência de mercadorias;</li>
+            <li>Escrituração de notas fiscais;</li>
+            <li>Verificação de valores e quantidades em estoque;</li>
+            <li>Verificação de contas a receber e contas a pagar;</li>
+        </ul>
+        <!-- <hr> -->
+
+        <H4><b>Vendedor em Comércio Atacadista </b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </h4>
+        <h5>23/09/2014 - 01/06/2018</h5>
         <ul>
             <li>Responsável pelo atendimento ao cliente, registrando as compras e recebendo os pagamentos com educação, gentileza e presteza;</li>
             <li>Empacotamento de mercadorias de forma cuidadosa  e eficiente a fim de minimizar danos.</li>
             <li>Realização de atendimento ao cliente em caso de dúvidas e reclamações sobre os produtos da loja, repassando as informações para a gerência.</li>
             <li>Embrulho de pacotes para presente, quando solicitado, valorizando o atendimento ao cliente.</li>
+        </ul>
+        
+       
+        <h4><b>Menor Aprendiz</b> <?php echo   $fantasia. '-' .$cidade ='Alegrete/RS'; ?> </h4>
+        <h5>19/02/2013 - 01/10/2023</h5>
+        <ul>
+            <!-- <li>;</li>
+             <li>.</li>
+            <li>a.</li>
+            <li>.</li> -->
         </ul>
         <hr>
 
-        <p><b>Operador de Caixa</b> <?php echo   $empresa_exp1. '-' .$cidade ='Alegrete/RS'; ?> </p>
-        <h4>01/2010 - Atual</h4>
-        <ul>
-            <li>Responsável pelo atendimento ao cliente, registrando as compras e recebendo os pagamentos com educação, gentileza e presteza;</li>
-            <li>Empacotamento de mercadorias de forma cuidadosa  e eficiente a fim de minimizar danos.</li>
-            <li>Realização de atendimento ao cliente em caso de dúvidas e reclamações sobre os produtos da loja, repassando as informações para a gerência.</li>
-            <li>Embrulho de pacotes para presente, quando solicitado, valorizando o atendimento ao cliente.</li>
-        </ul>
-        
+       
 
        
 
         <h2>Formação Acadêmica</h2>
-        <p>Titulo Segundo grau completo</p>
+        <p>Escola Emílio Zuneda - Segundo grau completo. </p>
 
         <h2>Informações Adicionais</h2>
         <p>Quais informações adicionar aqui </p>
